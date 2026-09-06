@@ -15,6 +15,7 @@ export class TenantMetadata extends BaseModel {
   public timezone!: string;
   public dateFormat!: string;
   public fiscalYear!: string;
+  public taxNumber?: string;
   public primaryColor!: string;
   public logoKey!: string;
   public logoUri!: string;

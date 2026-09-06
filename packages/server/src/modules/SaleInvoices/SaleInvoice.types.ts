@@ -266,6 +266,10 @@ export interface InvoicePdfTemplateAttributes {
   companyAddress: string;
   billedToLabel: string;
 
+  // Metadata (e.g. tax numbers) shown alongside each address.
+  customerMetadata?: { taxNumber?: string };
+  companyMetadata?: { taxNumber?: string };
+
   lineItemLabel: string;
   lineDescriptionLabel: string;
   lineRateLabel: string;

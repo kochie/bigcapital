@@ -87,6 +87,15 @@ export class CreateVendorDto extends ContactAddressDto {
   @IsString()
   website?: string;
 
+  @ApiProperty({
+    required: false,
+    description: 'Vendor tax identification number',
+    example: '12-3456789',
+  })
+  @IsOptional()
+  @IsString()
+  taxNumber?: string;
+
   @ApiProperty({ required: false, description: 'Vendor email address' })
   @IsOptional()
   @IsEmail()

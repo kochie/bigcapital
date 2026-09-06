@@ -47,6 +47,7 @@ export class Customer extends TenantBaseModel {
   workPhone?: string;
   personalPhone?: string;
   website?: string;
+  taxNumber?: string;
 
   billingAddress1?: string;
   billingAddress2?: string;

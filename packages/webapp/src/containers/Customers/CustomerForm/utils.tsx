@@ -29,6 +29,7 @@ export type CustomerFormValues = {
   workPhone: string;
   personalPhone: string;
   website: string;
+  taxNumber: string;
   note: string;
   active: boolean | string;
 
@@ -70,6 +71,7 @@ export const defaultInitialValues: CustomerFormValues = {
   workPhone: '',
   personalPhone: '',
   website: '',
+  taxNumber: '',
   note: '',
   active: true,
 
@@ -140,6 +142,7 @@ export const transformFormToCreateRequest = (
   companyName: values.companyName,
   code: values.code,
   website: values.website,
+  taxNumber: values.taxNumber,
   email: values.email,
   workPhone: values.workPhone,
   personalPhone: values.personalPhone,
@@ -183,6 +186,7 @@ export const transformFormToEditRequest = (
   companyName: values.companyName,
   code: values.code,
   website: values.website,
+  taxNumber: values.taxNumber,
   email: values.email,
   workPhone: values.workPhone,
   personalPhone: values.personalPhone,

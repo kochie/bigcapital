@@ -7126,6 +7126,8 @@ export interface components {
             personalPhone?: string;
             /** @example https://www.acme.com */
             website?: string;
+            /** @example 12-3456789 */
+            taxNumber?: string;
             /** @example 123 Business Ave */
             billingAddress1?: string;
             /** @example Suite 100 */
@@ -9528,6 +9530,11 @@ export interface components {
              */
             website?: string;
             /**
+             * @description Tax identification number
+             * @example 12-3456789
+             */
+            taxNumber?: string;
+            /**
              * @description Email
              * @example contact@acmecorp.com
              */
@@ -9599,6 +9606,11 @@ export interface components {
             displayName: string;
             /** @description Website */
             website?: string;
+            /**
+             * @description Tax identification number
+             * @example 12-3456789
+             */
+            taxNumber?: string;
             /** @description Email */
             email?: string;
             /** @description Work phone */
@@ -9689,6 +9701,8 @@ export interface components {
             personalPhone?: string;
             /** @example https://www.acme.com */
             website?: string;
+            /** @example 12-3456789 */
+            taxNumber?: string;
             /** @example 123 Business Ave */
             billingAddress1?: string;
             /** @example Suite 100 */
@@ -9840,6 +9854,11 @@ export interface components {
             displayName?: string;
             /** @description Vendor website */
             website?: string;
+            /**
+             * @description Vendor tax identification number
+             * @example 12-3456789
+             */
+            taxNumber?: string;
             /** @description Vendor email address */
             email?: string;
             /** @description Vendor work phone number */
@@ -9904,6 +9923,11 @@ export interface components {
             displayName?: string;
             /** @description Vendor website */
             website?: string;
+            /**
+             * @description Vendor tax identification number
+             * @example 12-3456789
+             */
+            taxNumber?: string;
             /** @description Vendor email address */
             email?: string;
             /** @description Vendor work phone number */

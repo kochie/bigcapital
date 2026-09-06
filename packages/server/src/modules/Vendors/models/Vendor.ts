@@ -49,6 +49,7 @@ export class Vendor extends TenantBaseModel {
   workPhone: string;
   personalPhone: string;
   website: string;
+  taxNumber?: string;
 
   billingAddress1: string;
   billingAddress2: string;

@@ -19,6 +19,7 @@ import {
   FMoneyInputGroup,
   ExchangeRateInputGroup,
   FDateInput,
+  FInputGroup,
   Icon,
   Box,
 } from '@/components';
@@ -37,6 +38,10 @@ export function VendorFormFinancialSection() {
       <VendorFormSectionTitle>
         <T id={'financial_details'} />
       </VendorFormSectionTitle>
+
+      <FFormGroup name={'taxNumber'} label={intl.get('tax_number')} inline>
+        <FInputGroup name={'taxNumber'} fill />
+      </FFormGroup>
 
       <FFormGroup
         name={'currencyCode'}

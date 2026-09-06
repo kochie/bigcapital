@@ -39,6 +39,7 @@ export class GetOrganizationBrandingAttributesService {
       companyLogoUri: companyLogoUri ?? undefined,
       companyLogoKey,
       primaryColor,
+      companyMetadata: { taxNumber: tenantMetadata?.taxNumber },
     };
   }
 }

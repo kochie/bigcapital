@@ -28,6 +28,7 @@ export type VendorFormValues = {
   workPhone: string;
   personalPhone: string;
   website: string;
+  taxNumber: string;
   note: string;
   active: boolean | string;
 
@@ -68,6 +69,7 @@ export const defaultInitialValues: VendorFormValues = {
   workPhone: '',
   personalPhone: '',
   website: '',
+  taxNumber: '',
   note: '',
   active: true,
 
@@ -139,6 +141,7 @@ export const transformFormToCreateRequest = (
   displayName: values.displayName,
   code: values.code,
   website: values.website,
+  taxNumber: values.taxNumber,
   email: values.email,
   workPhone: values.workPhone,
   personalPhone: values.personalPhone,
@@ -180,6 +183,7 @@ export const transformFormToEditRequest = (
   displayName: values.displayName,
   code: values.code,
   website: values.website,
+  taxNumber: values.taxNumber,
   email: values.email,
   workPhone: values.workPhone,
   personalPhone: values.personalPhone,

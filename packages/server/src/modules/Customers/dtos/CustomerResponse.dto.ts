@@ -51,6 +51,9 @@ export class CustomerResponseDto {
   @ApiProperty({ required: false, example: 'https://www.acme.com' })
   website?: string;
 
+  @ApiProperty({ required: false, example: '12-3456789' })
+  taxNumber?: string;
+
   @ApiProperty({ required: false, example: '123 Business Ave' })
   billingAddress1?: string;
 

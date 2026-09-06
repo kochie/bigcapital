@@ -128,6 +128,15 @@ export class CreateCustomerDto extends ContactAddressDto {
 
   @ApiProperty({
     required: false,
+    description: 'Tax identification number',
+    example: '12-3456789',
+  })
+  @IsOptional()
+  @IsString()
+  taxNumber?: string;
+
+  @ApiProperty({
+    required: false,
     description: 'Email',
     example: 'contact@acmecorp.com',
   })

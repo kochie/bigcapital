@@ -22,6 +22,7 @@ export class Contact extends BaseModel {
   workPhone?: string;
   personalPhone?: string;
   website?: string;
+  taxNumber?: string;
 
   billingAddress1?: string;
   billingAddress2?: string;
