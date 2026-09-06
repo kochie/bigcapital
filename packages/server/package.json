@@ -73,7 +73,6 @@
     "async": "^3.2.0",
     "async-mutex": "^0.5.0",
     "axios": "^1.6.0",
-    "bcrypt": "5.1.1",
     "bcryptjs": "^2.4.3",
     "bluebird": "^3.7.2",
     "bull": "^4.16.3",
@@ -139,6 +138,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
     "@nestjs/cli": "^10.0.0",
     "@nestjs/schematics": "^10.0.0",
     "@nestjs/testing": "^10.0.0",
